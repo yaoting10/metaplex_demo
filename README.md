@@ -1,3 +1,14 @@
+### 1.install dependencies
+```shell
+npm i
+```
+
+### 2.run unit tests
+```shell
+ts-node ./metadata/createCollectionm.ts
+```
+
+
 
 
 ```shell
