@@ -9,8 +9,7 @@ ts-node ./metadata/createCollectionm.ts
 ```
 
 
-
-
+### other client commands
 ```shell
 spl-token create-token
 ```
