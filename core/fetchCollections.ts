@@ -5,8 +5,8 @@ import {ConnectUmi} from "../createUmi";
 
 async function fetchCollections(){
     const umi = await ConnectUmi()
-    // const collectionId = publicKey('STTosGsaqN1WwNY15xkZReyh9tg8hmoVX7AR8tvAQSz')
-    const collectionId = publicKey('METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m')
+    const collectionId = publicKey('STTosGsaqN1WwNY15xkZReyh9tg8hmoVX7AR8tvAQSz')
+    // const collectionId = publicKey('METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m')
 
     const collection = await fetchCollection(umi, collectionId)
 
